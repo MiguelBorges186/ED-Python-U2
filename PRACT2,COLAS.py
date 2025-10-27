@@ -88,8 +88,8 @@ if __name__ == "__main__":
     cola.enqueue(Order(40, "Cliente3"))
     cola.enqueue(Order(50, "Cliente4"))
 
-    print("\n¿La cola está vacía ahora?:", cola.is_empty())  # False
-    print("Tamaño actual:", cola.size())  # 4
+    print("\n¿La cola está vacía ahora?:", cola.is_empty())  
+    print("Tamaño actual:", cola.size())  
 
     cola.print_info()
 
@@ -114,3 +114,4 @@ if __name__ == "__main__":
 
     print("\n¿La cola está vacía al final?:", cola.is_empty())
     print("Tamaño final:", cola.size())
+
